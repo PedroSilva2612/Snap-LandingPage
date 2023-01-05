@@ -1,0 +1,16 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.nav{
+
+
+    &__hamburguer{
+        width: 3rem;
+        height: 5rem;
+        background-image: url(../../../../build/img/icon-menu.svg);
+        background-repeat: no-repeat;
+        background-color: red;
+        background-position: center;
+        cursor: pointer;
+    }
+}
